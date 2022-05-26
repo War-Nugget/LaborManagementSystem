@@ -1,0 +1,30 @@
+{
+  "name": "labormanagementsystem",
+  "version": "1.0.0",
+  "description": "An employee management system using mysql2 and inquirer",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/War-Nugget/LaborManagementSystem.git"
+  },
+  "author": "War-Nugget",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/War-Nugget/LaborManagementSystem/issues"
+  },
+  "homepage": "https://github.com/War-Nugget/LaborManagementSystem#readme",
+  "dependencies": {
+    "connection": "^1.4.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
