@@ -16,7 +16,7 @@ VALUES
 ("Software Engineer", 120000, 2), 
 ("Accountant", 125000, 3), 
 ("Legal Team Lead", 25000, 4), 
-("Lawyer", 190000, 4);
+("Attorney", 50000, 4);
 
 -- Seeded employee info 
 INSERT INTO employees (lastName, firstName, roleID)
