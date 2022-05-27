@@ -4,15 +4,7 @@ const inquirer = require("inquirer");
 const { process_params } = require("express/lib/router");
 
 
-const dbConnection = mysql.createConnection(
-    {
-    host: "localhost",
-    user: "root",
-    password: "rootroot",
-    database: "company_db",
-    },
-    console.log(`Connnected to company database.`)
-);
+
 // inquirer prompts
 const menuOptions = () => {
   inquirer.prompt([
